@@ -1,0 +1,28 @@
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+/* Height of the grid so .sidenav can be 100% (Adjust as needed) */
+.row.content {height: 900px}
+
+.sidenav {
+  padding-top: 20px;
+  background-color: #606060;
+  height: 100%;
+}
+
+footer {
+  background-color: #000;
+  color: white;
+  padding: 15px;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height:auto;} 
+}
