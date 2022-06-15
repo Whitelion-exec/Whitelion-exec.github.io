@@ -1,2 +1,2 @@
-# whitelion-exec.github.io
+# Whitelion-exec.github.io
 Personal Webpage
